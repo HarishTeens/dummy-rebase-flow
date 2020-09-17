@@ -8,6 +8,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:      
-      - uses: HarishTeens/woofy-greet@1.0.2
+      - uses: HarishTeens/woofy-greet@v1.0.3
         with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
