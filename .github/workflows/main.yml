@@ -1,13 +1,9 @@
-name: CI
+name: Woofy
 on: pull_request_target
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:      
-      - uses: HarishTeens/woofy-actions@master
+      - uses: HarishTeens/hacktoberfest-greet@v1.1.0
         with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
